@@ -57,5 +57,15 @@ sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
   sudo yum update
   sudo yum install jenkins
   ```
+  <p>
+  start and enable the jenkins service using systemctl :-
   
+  ```bash
+  sudo systemctl enable jenkins
+  sudo systemctl start jenkins
+  ```
+  </p>
   
+  Now,open your browser and hit your IP address with port 8080,(example : 35.175.231.168:8080 ),it should open a web page asking for One Time Password.
+  
+ <img src="https://gitresource.s3.us-east-2.amazonaws.com/Jenkins_installation/Screenshot+from+2019-07-24+18-22-45.png">
