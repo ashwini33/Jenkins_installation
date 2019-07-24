@@ -52,6 +52,7 @@ sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
 ```
   <br>
   Now update the packages and install Jenkins using the command : -
+  
   ```bash
   sudo yum update
   sudo yum install jenkins
