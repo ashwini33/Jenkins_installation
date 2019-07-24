@@ -66,6 +66,25 @@ sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
   ```
   </p>
   
-  Now,open your browser and hit your IP address with port 8080,(example : 35.175.231.168:8080 ),it should open a web page asking for One Time Password.
+  Now,open your browser and hit your IP address with port 8080,(example : 35.175.231.168:8080 ),it should open a web page asking for One Time Password to unlock Jenkings.
   
  <img src="https://gitresource.s3.us-east-2.amazonaws.com/Jenkins_installation/Screenshot+from+2019-07-24+18-22-45.png">
+ 
+ Login to the server and read the output of this file using cat command and paste it in the window.After successful authentication it will prompt you to install plugins ,choose "Install suggested plugins" .
+ <img src="https://gitresource.s3.us-east-2.amazonaws.com/Jenkins_installation/Screenshot+from+2019-07-24+18-23-16.png"> <br>
+ <img src="https://gitresource.s3.us-east-2.amazonaws.com/Jenkins_installation/Screenshot+from+2019-07-24+18-23-51.png"> <br>
+ 
+ <p>
+  After the plugin installation it will ask you to set admin user name and password ,put values of your choice and move forward.
+  <img src="https://gitresource.s3.us-east-2.amazonaws.com/Jenkins_installation/Screenshot+from+2019-07-24+18-25-06.png">
+  
+  
+  
+  </p>
+
+<br> <br>
+Next it will ask for Jenkins URL ,match it with the IP of your instance and move ahead you will see the welcome page fo Jenkins.
+
+<br><br>
+<img src="https://gitresource.s3.us-east-2.amazonaws.com/Jenkins_installation/Screenshot+from+2019-07-24+18-26-18.png">
+<img src="https://gitresource.s3.us-east-2.amazonaws.com/Jenkins_installation/Screenshot+from+2019-07-24+18-26-28.png">
