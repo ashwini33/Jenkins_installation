@@ -22,5 +22,7 @@
  |-----|------------------|
  |22   |             SSh  |
  |8080 |   Custom TCP     |
-
-
+ 
+ 
+ <img src=" https://gitresource.s3.us-east-2.amazonaws.com/Jenkins_installation/Screenshot+from+2019-07-24+18-11-18.png">
+ 
